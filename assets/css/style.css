@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
   }
-
+/* Header */
 
   header {
     padding: 20px 35px;
@@ -55,28 +55,59 @@ header nav ul li a {
 }
   
 header nav ul li a:hover {  
-  background: var(--primary-color);
-  color: var(--secondary-color);
+  background: #954fa7;
+  color: black;
   border-radius: 15px;
   text-shadow: none;
 }
 
 
+/* End Header */
+/* About Me */
+
+.about {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    text-align: center;
+  } 
+
+  .about {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+  }
 
 
 
 
 
 
+/* About Me Ends */
+/* Projects */
+
+.work {
+    /* background-color: black; */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+  } 
 
 
-
-
-
-
-
-
-
+/* Projects Ends */
 
 
 
