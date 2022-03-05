@@ -105,10 +105,11 @@ header nav ul li a:hover {
 
 .projects {
     width: 100%;
+    height: auto;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
 .project {
@@ -163,6 +164,32 @@ header nav ul li a:hover {
     color: #ffffff;
   }
 /* Contact Me Ends */
+
+/* Footer */
+
+footer {
+    background: #954fa7;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  footer h2 {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+
+  footer a {
+    color: #ffffff;
+
+/* End Footer */
 
 
 
