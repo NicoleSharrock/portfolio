@@ -16,13 +16,13 @@
         <nav>
           <ul>
             <li>
-              <a href="#about-me">About Me</a>
+              <a class="head" href="#about-me">About Me</a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a class="head" href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#contact-me">Contact Me</a>
+              <a class="head" href="#contact-me">Contact Me</a>
             </li>
           </ul>
         </nav>
@@ -51,7 +51,7 @@
   </h2>
    
   <!-- first project -->
-  <div class="projects">
+  <div id="word" class="projects">
     <article class="project">    
     <img alt="run buddy project" src="./assets/images/runbuddy.png" width="150" height="70">
     <a href="https://nicolesharrock.github.io/run-buddy/"></a>
@@ -75,7 +75,7 @@
     Any questions or concerns you can reach me by any points below
     </p>
    
-    <address>
+    <address class="contact"> 
     1969 Crystal Grove Dr Apt 40 <br />
     Lakeland, Fl <br />
     33801<br />
@@ -88,13 +88,20 @@
 <!-- Footer -->
     <footer>
       <h2>&copy; 2022</h2>
-      <div>
-        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        <i class="fa fa-github-square" aria-hidden="true"></i>
-        <i class="fa fa-slack" aria-hidden="true"></i>
+      <div class="soical">
+        <a class="soical-icon" href="https://www.linkedin.com/in/nicole-sharrock-hayes-91228a16a/">
+          <ion-icon name="logo-linkedin"></ion-icon>
+         </a>
+         <a class="soical-icon" href="https://github.com/NicoleSharrock/">
+          <ion-icon name="logo-github"></ion-icon>
+         </a>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       </div>
     </footer>
   </body>
 
   <!-- End of footer -->
 </html>
+
+
