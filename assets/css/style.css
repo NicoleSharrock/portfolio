@@ -78,11 +78,16 @@ header nav ul li a:hover {
     color: #ffffff;   
   }
 
-.para {
-    display: flex;
-    align-items: left  ;
-    color: #ffffff;
-    }
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: left;
+}
 
 .avatar {
     display: flex;
@@ -147,6 +152,10 @@ header nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.project-name {
+    color: black;
+    text-align: center;
+}
 
 
 /* Projects Ends */
@@ -200,9 +209,6 @@ footer {
   footer i {
       color: #ffffff;
   }  
-  .social {
-
-  }
 
 
   .soical-icon {
@@ -217,3 +223,22 @@ footer {
   }
 /* End Footer */
 
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+
+
+@media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+
+@media screen and (max-width: 575px) {
+    .hero-form button {
+        width: 100%;
+}
