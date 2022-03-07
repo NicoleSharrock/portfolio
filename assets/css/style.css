@@ -13,9 +13,9 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: -webkit-sticky;
+  /* position: -webkit-sticky; */
   position: sticky;
-  /* top: 0; */
+  top: 0;
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
@@ -221,7 +221,6 @@ h5 {
 
 footer {
   background: #954fa7;
-  width: 100%;
   padding: 20px 35px;
   display: flex;
   justify-content: space-between;
@@ -255,3 +254,35 @@ footer i {
 }
 
 /* End Footer */
+
+
+@media screen and (max-width: 768px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header nav ul li a {
+    font-size: larger;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 575px) {
+  header {
+    justify-content: center;
+    position: relative;
+  }
+
+  .projects {
+    justify-content: flex-start;
+  }
+
+  footer {
+    width: auto;
+  }
+}
