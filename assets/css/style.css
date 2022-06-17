@@ -6,7 +6,6 @@
 
 
 
-
 main {
   width: 90%;
   margin: 10px auto;
@@ -20,7 +19,7 @@ main {
 header {
   padding: 10px 15px;
   color: black;
-  background-color: #954fa7;
+  /* background-color: #954fa7; */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -73,7 +72,7 @@ header nav ul li a:hover {
   padding: 10px 15px;
   font-weight: bold;
   color: black;
-  background-color: #954fa7;
+  /* background-color: #954fa7; */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -94,7 +93,7 @@ header nav ul li a:hover {
 /* About Me */
 
 .about {
-  background-color: black;
+  /* background-color: black; */
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -132,6 +131,10 @@ p {
 
 /* Projects */
 
+#word.projects {
+  border-radius: 2px solid red;
+}
+
 .projects :first-child {
   width: 100%;
   height: 60vh;
@@ -157,11 +160,7 @@ p {
   justify-content: space-evenly;
 }
 
-.project {
-  margin: 10px;
-  color: #0000;
-  width: 30%;
-}
+
 
 
 .project-bio {
@@ -175,9 +174,6 @@ p {
   margin-bottom: 15px;
 }
 
-.project-bio p {
-  font-size: 17px;
-}
 
 .project:hover img {
   transform: scale(1.05);
@@ -185,10 +181,7 @@ p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.project-name {
-  color: black;
-  text-align: center;
-}
+
 
 
 /* Projects Ends */
